@@ -14,18 +14,29 @@ body {
 header {
     margin: 0 120px;
 }
-
+.logo-name{
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+}
 nav {
     display: flex;
     justify-content: space-between;
 
 }
-
+ul>li{
+    list-style: none;
+}
 ul {
     display: flex;
     gap: 34px;
 }
-
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+}
 .banner {
     display: flex;
     justify-content: space-between;
@@ -138,4 +149,8 @@ ul {
 
 .more-btn {
     text-align: right;
+}
+.feature{
+    display: flex;
+    justify-content: space-between;
 }
