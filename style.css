@@ -1,105 +1,141 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
-    /* list-style: none; */
-    /* list-style: none; */
-    /* text-decoration: none; */
+
 }
-header{
+
+header {
     margin: 0 120px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
-    
+
 }
-ul{
+
+ul {
     display: flex;
-    gap:34px;
-} 
-.banner{
+    gap: 34px;
+}
+
+.banner {
     display: flex;
     justify-content: space-between;
     gap: 130px;
 }
-.banner-btn{
+
+.banner-btn {
     padding: 8px;
     color: whitesmoke;
     background: #E02C6D;
     border: none;
     border-radius: 25px;
 }
-.banner-info{
+
+.banner-info {
     margin-top: 140px;
     margin-bottom: 145px;
 }
-.banner-img{
+
+.banner-img {
     margin-top: 80px;
     margin-bottom: 100px;
 }
-.banner-title{
+
+.banner-title {
     font-weight: 700;
-font-size: 52px;
+    font-size: 52px;
     margin-bottom: 16px;
 }
-.banner-subtitle{
+
+.banner-subtitle {
     font-weight: 600;
     margin-bottom: 16px;
 }
-.item-img{
+
+.item-img {
     width: 300px;
-height: 256px;
-/* margin-bottom: 16px; */
-padding:16px 15px;
+    height: 256px;
+    padding: 16px 15px;
 }
-.item-title{
+
+.item-title {
     font-weight: 500;
-font-size: 28px;
-margin-bottom: 6px;
+    font-size: 28px;
+    margin-bottom: 6px;
 }
-.item-price{
+
+.item-price {
     font-weight: 700;
     font-size: 14px;
     color: #5E6366;
     margin-bottom: 10px;
 }
-.filled,.empty{
+
+.filled,
+.empty {
     width: 16px;
     height: 16px;
     color: gold;
     margin-bottom: 9px;
 }
-.empty{
+
+.empty {
     color: rgb(232, 214, 111);
 }
-.item-detail{
+
+.item-detail {
     font-weight: 700;
     font-size: 14px;
     color: #787885;
     width: 196px;
+    margin: 0 auto;
+
 }
-.collection-title{
+
+.collection-title {
     text-align: center;
     margin-bottom: 30px;
 }
-.collection{
-    /* margin: 0 190px; */
+
+.collection {
     max-width: 1250px;
     margin: 0 auto;
     padding-left: 100px;
-    /* display: flex; */
-    /* justify-content: center; */
-    border:1px solid red;
 
 }
-.items{
+
+.items {
     display: grid;
-    gap:30px;
-    grid-template-columns: repeat(3,1fr);
-    /* justify-content: center; */
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item {
+    justify-self: center;
+}
+
+.details {
+    text-align: center;
+}
+
+.see-more {
+    color: #E02C6DDE;
+    font-weight: 700;
+    border: none;
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.more-btn {
+    text-align: right;
 }
