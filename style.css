@@ -22,6 +22,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 
 }
 ul>li{
@@ -152,5 +153,33 @@ ul li a{
 }
 .feature{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.info .title{
+    color: black;
+    font-size: 35px;
+}
+.info .sub-title{
+    color: gray;
+    font-size: 14px;
+}
+.info .see-more{
+    background: #E02C6D;
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    background-color:#0A0826;
+    color: white;
+    padding: 150px 0;
+}
+footer p{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
